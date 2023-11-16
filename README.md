@@ -105,3 +105,7 @@ After setting up the trigger, the ETL pipeline will run automatically according 
 The Databricks ETL pipeline with Delta Lake and Spark SQL offers a robust solution for processing and analyzing diamond data. The added automation and visualization enable a seamless workflow for end-to-end data handling, from extraction to actionable insights.
 
 For any queries or further assistance, please refer to the Databricks documentation or reach out to the support team.
+
+## Video Demo
+For a detailed walkthrough of the project and its functionalities, refer to the video demo:
+[Link to YouTube demo Video](https://youtu.be/F0I-Tt164UQ)
