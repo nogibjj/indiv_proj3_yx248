@@ -12,16 +12,11 @@ This project demonstrates an end-to-end Extract, Transform, Load (ETL) pipeline 
 - Basic knowledge of PySpark and Spark SQL
 
 ## Project Structure
-1. **Extract_and_Transform_Load_Diamonds_Data Notebook**: This notebook handles data extraction from a CSV file and its transformation into Delta format.
-2. **Transform_Load_Diamonds_Data Notebook**: Focused on further data transformations and aggregations.
-3. **Data_Query_and_Visualization Notebook**: Dedicated to querying the transformed data and visualizing insights.
-
-## Project Structure
 The ETL pipeline consists of Two primary notebooks:
-1. `Extract_and_Transform_Load_Diamonds_Data`:
+1. **Extract_and_Transform_Load_Diamonds_Data**:
     - Extracts and loads data into Delta Lake.
     - Transforms the data and performs aggregations.
-2. `Data_Query_and_Visualization`:
+2. **Data_Query_and_Visualization**:
     - Queries the transformed data and visualizes insights.
 
 ![Workspace Directory Structure](workspace_directory_structure.png)
