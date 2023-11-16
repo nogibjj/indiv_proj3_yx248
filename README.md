@@ -4,10 +4,10 @@
 This project demonstrates an end-to-end Extract, Transform, Load (ETL) pipeline using Databricks, Delta Lake, and Spark SQL. It focuses on extracting diamond data, transforming it for efficient analysis, and loading it into a structured format. The project also includes data validation, error handling, and visualization for insightful analysis.
 
 ## Prerequisites
-- Databricks Workspace
-- Access to Databricks datasets
 - Basic understanding of SQL and Python
 - An active Databricks account
+- Access to Databricks datasets
+- Databricks Workspace
 - A configured Databricks cluster with Spark and Delta Lake support
 - Basic knowledge of PySpark and Spark SQL
 
@@ -17,10 +17,12 @@ This project demonstrates an end-to-end Extract, Transform, Load (ETL) pipeline 
 3. **Data_Query_and_Visualization Notebook**: Dedicated to querying the transformed data and visualizing insights.
 
 ## Project Structure
-The ETL pipeline consists of three primary notebooks:
-1. `Extract_and_Transform_Load_Diamonds_Data`: Extracts and loads data into Delta Lake.
-2. `Transform_Load_Diamonds_Data`: Transforms the data and performs aggregations.
-3. `Data_Query_and_Visualization`: Queries the transformed data and visualizes insights.
+The ETL pipeline consists of Two primary notebooks:
+1. `Extract_and_Transform_Load_Diamonds_Data`:
+    - Extracts and loads data into Delta Lake.
+    - Transforms the data and performs aggregations.
+2. `Data_Query_and_Visualization`:
+    - Queries the transformed data and visualizes insights.
 
 ![Workspace Directory Structure](workspace_directory_structure.png)
 
